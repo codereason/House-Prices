@@ -2,16 +2,16 @@
 
 ## Final Result
 
-- Offline cross validation: 0.10967,
-- Online Leaderboard: 0.11475
-- ranking:120
+- **Offline cross validation**: 0.10967,
+- **Online Leaderboard**: 0.11475
+- **Ranking**:120(Top 6%)
 
 ## Selected Models
 
-|算法模型|XGBoost|Lasso|ElasticNet|KernelRidge|GaussianProcess|
+|Models|XGBoost|Lasso|ElasticNet|KernelRidge|GaussianProcess|
 |:----:|:------:|:---:|:--------:|:---------:|:-------------:|
-|线下CV|0.11116|0.10977|0.10877|0.10747|0.10777|
-|线上LB|0.11844|0.11755|0.11734|0.11695|0.11734|
+|Offline CV|0.11116|0.10977|0.10877|0.10747|0.10777|
+|Online LB|0.11844|0.11755|0.11734|0.11695|0.11734|
 
 ## Pipline
 ![pipline](img/pipline.png)
